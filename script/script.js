@@ -77,6 +77,17 @@ function display() {
   }
 }
 
+function showAlert(message, className){
+    const div = document.createElement('div');
+    div.className = `alert alert-${className}`;
+    div.appendChild(document.createTextNode(message));
+    const nav = document.querySelector('.navigation');
+    const navbar = document.querySelector('.navigation2');
+    nav.insertBefore(div, navbar);
+    //Da nestane posle par sekundi
+    setTimeout(()=>document.querySelector('.alert').remove(), 3000);
+}
+
 //Ako je localStorage prazan dodajemo neki demo sadrzaj
 if(library.length===0){
     addBookToLibrary('Ramble Book', 'Adam Buxton', '363', false);
