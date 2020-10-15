@@ -1,0 +1,82 @@
+.header {
+    background-color: #46B4CE !important;
+    background:  url(../images/book.png) no-repeat center center;
+    background-size: 30%;
+    position: relative;
+    margin-top: 25px;
+    height: 20em;
+}
+h1{
+    font-family: 'Rye', cursive;
+}
+h2{
+  text-align: right;
+  border-bottom: 2px dotted black;
+  padding: 5px;
+}
+
+/*extra small devices*/
+@media (min-width: 300px) {
+    .header {
+      background-size: 55%;
+      height: 15em;
+    }
+  }
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+      .header {
+          background-size: 40%;
+      }
+  }
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+      .header {
+          background-size: 30%;
+      }
+  }
+
+  
+.btn#delete{
+    margin-left:10px;
+    margin-top:8px;
+    background-color: rgb(184, 8, 8); 
+  color: white; 
+  padding: 12px 16px; 
+  font-size: 16px; 
+  cursor: pointer; 
+}
+
+/* Darker background on mouse-over */
+.btn#delete:hover {
+  background-color: rgb(36, 231, 85);
+}
+
+.btn#toggleRead{
+    background-color: royalblue;
+    margin-left:10px;
+    margin-top:8px;
+    padding: 12px 16px; 
+  font-size: 16px; 
+  cursor: pointer; 
+}
+
+.navbar {
+    margin-top: -30px;
+}
+
+#success_alert {
+    opacity: 0;
+    left: 30%;
+}
+
+div.alert{
+    height: 4em;
+    margin-top: 1vh;
+}
+ 
+main.card{
+  margin: 5px;
+}
+.readingList, .completedBooks{
+  display: flex;
+}
