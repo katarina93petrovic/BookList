@@ -68,6 +68,9 @@ h2{
     opacity: 0;
     left: 30%;
 }
+#pogresanUnos {
+  opacity: 0;
+}
 
 div.alert{
     height: 4em;

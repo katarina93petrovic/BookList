@@ -27,7 +27,7 @@
            </button>
            <div class="collapse navbar-collapse" id="navbarCollapse">
              <ul class="navbar-nav mr-auto">
-               <li class="nav-item active">
+               <li class="nav-item">
                  <a class="nav-link" href="#readingList">Za citanje <span class="sr-only">(current)</span></a>
                </li>
                <li class="nav-item">
@@ -54,13 +54,13 @@
      </div>
 
      
-     <div id="addNewBook" class="bg-info mt-2 p-2">
+     <div id="addNewBook" class="bg-info mt-1 p-1">
+      <h1 class="text-center">Dodaj Novu Knjigu</h1>
       <label id="success_alert" class="alert alert-success ">Uspesno ste dodali knjigu!</label>
-      <h2 class="text-center">Dodaj Novu Knjigu</h2>
       
       <form>
           <div class="form-group">
-            <label for="inputTitle" class="p-1">Naslov</label>
+            <label for="inputTitle">Naslov</label>
             <input type="text" class="form-control" id="inputTitle" placeholder="Unesite naslov knjige" required>
           </div>
           <div class="form-group">
@@ -83,6 +83,7 @@
           </div>
           <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
       </form>
+      <p id="pogresanUnos" class="alert alert-danger"></p>
   </div>
 </div>
 
