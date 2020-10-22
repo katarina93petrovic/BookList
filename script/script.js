@@ -76,8 +76,8 @@ function display() {
       `<div class="card">` +
       `<img src="https://source.unsplash.com/collection/${item.imgID}/1900x800" class="card-img-top img-thumbnail mx-auto" alt="...">` +
       '<div class="card-body text-center">' +
-      `<h5 class="card-title">${item.title}</h5>` +
-      `<p class="card-text">${item.author}</p>` +
+      `<h5 class="card-title h4">${item.title}</h5>` +
+      `<p class="card-text h6">${item.author}</p>` +
       `<p class="card-text">${item.pages} Pages</p>` +
       '<div class="btn-group">' +
       `<a href="#" id="toggleRead" class="btn btn-sm btn-info fa fa-book"> Mark as ${
