@@ -1,1 +1,2 @@
-# katarina93petrovic.BookList
+# BookList Project
+https://katarina93petrovic.github.io/BookList/
