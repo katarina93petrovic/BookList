@@ -80,10 +80,10 @@ function display() {
       `<p class="card-text h6">${item.author}</p>` +
       `<p class="card-text">${item.pages} Pages</p>` +
       '<div class="btn-group">' +
-      `<a href="#" id="toggleRead" class="btn btn-sm btn-info fa fa-book"> Mark as ${
-        item.read ? "unread" : "read"
+      `<a href="#" id="toggleRead" class="btn btn-sm btn-info fa fa-book"> Oznaci kao ${
+        item.read ? "neprocitano" : "procitano"
       }</a>` +
-      '<a href="#" id="delete" class="btn btn-sm btn-danger fa fa-trash"> Delete</a>' +
+      '<a href="#" id="delete" class="btn btn-sm btn-danger fa fa-trash"> Obrisi</a>' +
       "</div>" +
       "</div>";
     ("</div>");
