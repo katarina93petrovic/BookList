@@ -92,7 +92,7 @@ function display() {
     } else {
       readingList.appendChild(book);
     }
-
+ 
     book.addEventListener("click", (event) => {
       if (event.target.id === "toggleRead") {
         item.read = !item.read;
